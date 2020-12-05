@@ -5,7 +5,7 @@ import Card from './Card'
 
 function Media(props) {
     const {min, max} = props
-    const media = (min + max) /2
+    const media = parseInt((min + max) / 2)
 
     return (
         <Card title="Media" blue>
